@@ -1,0 +1,19 @@
+# Kopy Ivest
+
+A Kopy Invest é uma empresa de investimentos que atua no mercado financeiro internacional - Forex. 
+
+## Nota
+
+- Site desenvolvido em HTML, CSS e Javascript
+
+- O site possui todo o fluxo para o cliente conhecer um pouco sobre a empresa bem como seu método de operação e abertura de conta na corretora vinculada à empresa. 
+
+## Passo a passo
+
+Acesse a pasta calender e instale as dependências:
+
+    npm install 
+
+Inicie o servidor
+	
+	npm run dev

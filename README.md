@@ -1,4 +1,4 @@
-# Kopy Ivest
+# Kopy Invest
 
 A Kopy Invest é uma empresa de investimentos que atua no mercado financeiro internacional - Forex. 
 

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="/css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="/css/style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Kopy Invest</title>
+</head>
+<body>
+    <!--Logo e menu-->
+    <nav id="navbar">
+        <div id="navbar-container" >
+            <h1 class="logo"><img src="/img/logo.jpeg" alt="logo da Kopy Invest"></h1>
+            
+            <div id="itens" class="overlay">
+                <span id="burguer" class="material-symbols-outlined close" onclick="closeNav()">close</span>
+
+                <ul id="navbar-items" class="overlay-content">
+                    <li><a href="#showcase">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#start">Começar</a></li>
+                </ul>
+            </div>
+            
+            <span id="burguer" class="material-symbols-outlined" onclick="openNav()">menu</span>
+           
+        </div>
+    </nav>
+
+    <!--capa-->
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Inteligência em investir.</h2>
+            <p>Para pessoas exigentes e que querem rentabilizar seu capital de forma profissional. </p>
+            <a href="#start" class="btn">Começar Agora</a>
+        </div>
+    </header>
+
+    <!--Sobre-->
+    <section id="about">
+        <div id="features-container">
+
+            <div class="feature-img">
+                <img src="/img/about.jpg" alt="imagem de gráficos em notebook e tablete.">
+            </div>
+
+            <div class="feature">  
+                <div class="who">
+                    <h2>Quem Somos</h2>
+                    <span class="feature-title">Somos a <strong>Kopy Invest</strong></span>
+                    <p>Mesa de operações atuante no mercado de renda variável e nosso principal produto é o copy internacional.</p>
+                </div>  
+
+                <div class="who">
+                    <h2>O que fazemos</h2>
+                    <span class="feature-title">Investimento <strong>Internacional</strong></span>
+                    <p>Nós da Kopy Invest replicamos de forma 100% automática nossas operações diretamente na sua conta pessoal. Utilizamos a maior e melhor plataforma de copy do mundo.</p>
+                </div>
+            </div>
+             
+        </div>
+        
+        <div id="features-container">
+            <div class="feature">  
+                <div class="who">
+                    <h2>Controle</h2>
+                    <span class="feature-title">Você acompanha de perto <strong>seus investimentos</strong></span>
+                    <p>Acompanhe em tempo real todas as operações, com a liberdade de programar o limite de risco tolerável para o seu perfil.</p>
+                </div>  
+
+                <div class="who">
+                    <h2>Gestão de Risco</h2>
+                    <span class="feature-title"><strong>Gerenciamento profissional</strong> para otimizar os lucros</span>
+                    <p>Operações feitas manualmente com gestão de risco controlado, utilizamos stop loss e alvos com Risco:Ganho positivo.</p>
+                </div>
+            </div>
+
+            <div class="feature-img">
+                <img src="/img/acompanhe.jpg" alt="casal olhando para a tela do notebook.">
+            </div>
+             
+        </div>
+
+    </section>
+
+    <!--Para quem é-->
+
+    <section id="who-is">
+        <div class="headline">Para Quem é Indicado o Copy?</div>
+        <div class="who-is-container">
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/diversificar.jpg" class="benefits" alt="imagem de pessoa analisando gráficos">
+                    <p>Para você que busca a <strong>segurança da diversificação</strong>.</p>
+                </div> 
+            </div>
+
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/dolar.jpg" class="benefits" alt="imagem de notas de dólares">
+                    <p>Para você que quer <strong>proteger seu patrimônio em dólar</strong>.</p>
+                </div>
+            </div>
+
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/estudar.jpg" class="benefits" alt="imagem de livros e notebook para estudos" >
+                    <p>Para você que nao tem tempo ou conhecimento para <strong>analisar e acompanhar o andamento do mercado</strong>.</p>
+                </div>           
+            </div>
+
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/preocupado.jpg" class="benefits" alt="imagem de pessoa frustrada" >
+                    <p>Para você que está triste, estressado, frustrado, cansado por não conseguir <strong>resultados consistentes no mercado</strong>.</p>
+                </div>   
+            </div>
+
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/trabalho.jpg" class="benefits" alt="imagemde mulher trabalhando em home office" >
+                    <p>Para você que precisa focar maior parte do <strong>tempo na sua atividade principal</strong>.</p>
+                </div>   
+            </div>
+
+            <div class="benefits-items">
+                <div class="img">
+                    <img src="/img/ferias.jpg" class="benefits" alt="imagemde paie filha andando pela praia" >
+                    <p>Para você que quer ter<strong> mais tempo e qualidade de vida</strong>.</p>
+                </div>  
+            </div>
+        </div>  
+    </section>
+
+    <section id="who-is">
+        <div class="headline">Para Quem Não é indicado o Copy?</div>
+        <div id="who-is-not">
+            <div class="img"><img src="/img/para-quem-nao.jpg" class="benefits" alt="imagem de pessoa ansiosa" ></div>
+            <div class="not-benefits"><p>Para quem não tem a mínima <strong>tolerância a variação do mercado financeiro</strong>, pois são investimentos no mercado de <strong>renda variável</strong>.</p></div>
+        </div>
+    </section>
+
+    <!--Como começar-->
+
+    <section id="start">
+        <div>
+            
+            <div class="headline">Como começar?</div>
+        </div>
+        <!--Abrir conta-->
+        
+        <div id="conta">
+            <div class="menuText">
+                <div>
+                    <p>Fazer parte é muito simples, basta abrir sua conta na corretora Exness. 
+                        <strong>Seu dinheiro ficará na sua conta da corretora.</strong> <br>
+                        Por lá você conseguirá acompanhar em tempo real seus investimentos.<br>
+                        <strong><i>Controle e praticidade na palma de sua mão.</i></strong>
+                    </p> 
+                </div>
+                <h2>Abra Sua Conta
+                <span id="burguerText" class="material-symbols-outlined " onclick="openStep()">keyboard_double_arrow_right</span></h2>
+            </div>
+            
+            <div id="menuConta" class="general-step">
+                
+                <span id="burguerText" class="material-symbols-outlined close" onclick="closeStep()">keyboard_double_arrow_left</span>
+                
+                <h2 id="step1" class="headline">Abra sua conta na corretora Exness</h2>
+                <img src="/img/logo (1).svg" alt="logo da corretora Exness">
+                <p class="step-description">Para ser um cliente na corretora Exness vinculado à <strong>Kopy Invest</strong> você deve abrir sua conta clicando no botão abaixo, ou pelo seguinte link:
+                <a href="https://one.exness-track.com/a/7yrz6q5zxo" target="_blank">https://one.exness-track.com/a/7yrz6q5zxo</a></p>
+                <a  class="btn" href="https://one.exness-track.com/a/7yrz6q5zxo" target="_blank">Cadastre-se</a>
+                <p class="warning"><strong>ATENÇÃO:</strong> É importante cadastrar-se pelo link acima ou pelo botão, para que sua conta esteja vinculada ao Kopy Invest.</p>
+
+                <div class="exemplo">
+            
+                    <div class="exemplo-container" >
+                        <p>Ao clicar no link, a seguinte página será aberta no seu navegador. Basta clicar em "Open Account". Para sua maior comodidade, no menu lateral você pode selecionar o idioma "Português".</p>
+                        <img src="/img/tela1.jpeg" alt="imagem da tela inicial com botão bara seleção do idiomoa e para abertura da conta.">
+                    </div>
+                    
+                    <div class="exemplo-container" >
+                        <p>Inicie seu cadastro preenchendo os campos solicitados. O campo "Código de Parceiro" é opcional, e não precisa ser preenchido. Em seguida clique em continuar. </p>
+                        <img src="/img/tela2.jpeg" alt="imagem da tela para inserção de dados para abertura de conta.">
+                    </div>
+
+                    <div id="color" class="exemplo-container" >
+                        <p> Após preencher os dados, você será direcionado para essa página. Selecione "Conta Real". </p>
+                        <img src="/img/tela3.jpeg" alt="imagem da tela logada para abertura de conta real.">
+                    </div>
+
+                    <div class="exemplo-container" >
+                
+                        <p>Antes de concluir, você precisa fazer a verificação do seu email cadastrado e do seu número de telefone celular. Clique em "Verificar email". Em seguida clique em "Enviar código".</p>
+                        <img src="/img/tela4.jpeg" alt="imagem da tela com campos para verificar email.">
+                    </div>
+
+                    <div id="color" class="exemplo-container" >
+                        <p>Após alguns minutos você terá recebeido seu código, via email. Basta informá-lo no campo solicitado e continuar.</p>
+                        <img src="/img/tela5.jpeg" alt="tela que mostra campo para verificar email.">
+                    </div>
+
+                    <div class="exemplo-container" >
+                        <p>Faça a verificação do seu número de celular. Basta informar seu número e aguardar alguns segundos para receber o código via SMS.</p>
+                        <img src="/img/tela7.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+
+                    <div id="color" class="exemplo-container" >
+                        <p>Complete suas informações pessoais e conclua o cadastro</p>
+                        <img src="/img/tela8.jpeg" alt="tela que mostra campo para verificar email.">
+                    </div>
+
+                    <div class="exemplo-container" >
+                        <p>Seu cadastro foi concluído.</p>
+                        <img src="/img/tela9.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+
+                    <div class="exemplo-container" >
+                        <p>Após isso, complete seu perfil para poder começar a negociar.</p>
+                        <img src="/img/tela6.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+                    
+                    <div class="exemplo-container" >
+                        <p>Preencha com suas informações os campos solicitados. </p>
+                        <img src="/img/tela10.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+
+                    <div class="exemplo-container" >
+                        <p>Após isso, será feita a verificação de documentos.</p>
+                        <img src="/img/tela11.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+
+                    <div class="exemplo-container" >
+                        <p>Basta enviar as fotos dos documentos como solicitado.</p>
+                        <img src="/img/tela12.jpeg" alt="tela que mostra botão para completar o perfil. ">
+                    </div>
+
+                </div>
+                
+                <div id="color" class="exemplo-container-btn">
+                    <a onclick="closeStep()" class="btn">Voltar</a>
+                </div>
+                
+                    
+            </div>
+        </div>
+
+        <div class="menuText">
+            <div>
+                <p>Siga o passo a passo da carretora para depositar o seu dinheiro. Aproveite o que o mercado tem de mais seguro e tecnológico para aumentar seu capital de forma segura e consistente.</p> 
+            </div>
+        </div>
+        <div class="headline">
+            <p>Seja bem vindo à Kopy Invest!</p>
+        </div>
+
+
+        <!--Contato-->
+        <section id="contact">
+            
+            <div class="headline">Contato</div>
+
+            <p>Entre em contato com nossa equipe de suporte através do <strong>Telegram</strong>. Será uma satisfação te atender!</p>
+
+            <div class="comunication">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contato@kopyinvest.com.br</p>
+                </div>
+                
+                <div id="telegram" class="contact-item">
+                    <i class="fa-brands fa-telegram fa-1x"></i>
+                    <p>Telegram</p>
+                    <a href="https://web.telegram.org"  target="_blank"><img class="qrcode" src="/img/telegram.jpg" alt=""></a>
+                </div>                
+            </div>
+
+        </section>
+
+        <!--footer-->
+        <section>
+            <footer id="footer">
+                <p class="assinatura">&copy; Copyright 2020 Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/ana-caroline-nazareth-427296222/">Ana Caroline</a></p>
+            </footer>
+        </section>
+
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/5951d7dfd7.js" crossorigin="anonymous"></script>
+
+        <!--jQuery CDN-->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+        crossorigin="anonymous">
+        </script>
+        
+        <!--JS-->
+        <script src="/js/main.js"></script>
+</body>
+</html>
